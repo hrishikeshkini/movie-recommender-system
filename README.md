@@ -28,26 +28,21 @@ Providing an accurate and robust solution to this challenge has immense economic
 ## Approach
 Data Exploration : I started exploring dataset using pandas,numpy,matplotlib and seaborn.
 
-Data visualization : Ploted graphs to get insights about dependend and independed variables.
-
 Feature Engineering : Removed missing values and created new features as per insights.
 
-Model Building & Testing : Tried many machine learning algorithms and checked the base accuracy to find the best fit.
+Pickle File : created pickle file as per need.
 
-Pickle File : Selected model as per best accuracy and created pickle file.
-
-User Interface & deployment :  Created an UI with a form that takes all the necessary inputs from user and shows the output.
+User Interface & deployment :  Created an UI with a form that take the necessary inputs from user and shows the 5 recommended movies.
                           After that I have deployed project on heroku.
 ## Technologies Used
  
    1. Python 
-   2. Tensorflow
    3. Streamlit
-   4. Keras
-   5. Sklearn
+   5. Sklearn(CountVectorizer, cosine_similarity)
    6. Pandas, Numpy 
-   7. Matplotlib
-   8. Open-cv
+ 
+##Dataset
+   [Download here](https://www.kaggle.com/tmdb/tmdb-movie-metadata/download)
 
 ## Installation
 Click here to install [python](https://www.python.org/downloads/). To install the required packages and libraries, run this pip command in the project directory after cloning the repository:
